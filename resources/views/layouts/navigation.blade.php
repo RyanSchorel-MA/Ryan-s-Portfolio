@@ -15,14 +15,16 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
-                    {{ __('About') }}
+                    
+                    <x-nav-link :href="route('about')" :active="request()->routeIs('about') ">
+                        {{ __('About') }}
+                    
                     </x-nav-link>
                 </div>
             </div>
 
 
-            
+
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ms-6">

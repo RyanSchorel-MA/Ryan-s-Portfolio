@@ -17,7 +17,6 @@ class ProjectSeeder extends Seeder
         $faker = Faker::create();
         DB::table('projects')->insert([
             'title'       => $faker->colorName(),
-            'intro'       => $faker->text(50),
             'description' => $faker->text(),
             'active'        => true,
         ]);

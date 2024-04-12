@@ -10,7 +10,6 @@
     @endforeach 
     @section('scripts')
         <script>
-            doeIets('werkt dit?');
             console.log("test");
         </script>
     @endsection

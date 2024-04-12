@@ -1,3 +1,4 @@
+<x-master-layout>
 
         @foreach( $projects as $project )
         <div
@@ -7,5 +8,10 @@
             </h5>
         </div>
     @endforeach 
-
+    @section('scripts')
+        <script>
+            doeIets('Mijn script werkt');
+        </script>
+    @endsection
+</x-master-layout>
 

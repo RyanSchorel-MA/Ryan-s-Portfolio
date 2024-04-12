@@ -10,7 +10,8 @@
     @endforeach 
     @section('scripts')
         <script>
-            doeIets('Mijn script werkt');
+            doeIets('werkt dit?');
+            console.log("test");
         </script>
     @endsection
 </x-master-layout>
